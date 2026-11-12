@@ -28,4 +28,4 @@ Never place a service-role/secret key in browser code or commit `.env.local`. Th
 
 ## Deployment status
 
-The project code and migration are prepared for the MSE Product Suite project. The migration, API schema exposure, and production environment variables must be applied and verified before calling the app live or connected to production data.
+The application is deployed at [mse-energy-access.vercel.app](https://mse-energy-access.vercel.app). Its production UI currently shows the setup state because the Supabase migration, `gridaccess` API schema exposure, and publishable-key environment variables have not yet been applied. Do not treat it as a functional production data workspace until those steps are complete and verified.
