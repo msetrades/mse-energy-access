@@ -1,0 +1,32 @@
+project_id = "tcstghomtslvvjvtbtmj"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public", "gridaccess"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+auto_expose_new_tables = false
+
+[db]
+major_version = 17
+
+[db.migrations]
+enabled = true
+
+[auth]
+enabled = true
+site_url = "https://mse-energy-access.vercel.app"
+additional_redirect_urls = [
+  "http://localhost:3000",
+  "https://mse-energy-access.vercel.app",
+  "https://mse-civic-infrastructure.vercel.app",
+  "https://mse-hospital-flow.vercel.app",
+  "https://mse-food-network.vercel.app",
+  "https://mse-industrial-reliability.vercel.app",
+  "https://mse-disaster-response.vercel.app",
+  "https://mse-education-insights.vercel.app",
+  "https://mse-supply-resilience.vercel.app",
+  "https://mse-research-reproducibility.vercel.app",
+  "https://mse-ai-lifecycle.vercel.app"
+]
+enable_signup = true
